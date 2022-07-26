@@ -32,7 +32,7 @@ var adLab = x.totalAd.toString() + " Ads";*/
 new Chart(ctx, {
   type: "doughnut",
   data: {
-    labels: [' Analytics', ' Ads', ' Chats'],
+    labels: [' Analytics', ' Ads', ' Chat Bot'],
     //labels: [analLab, adLab],
     datasets: [{
       backgroundColor: barColors,
