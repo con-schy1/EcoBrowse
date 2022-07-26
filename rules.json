@@ -5816,5 +5816,19 @@
     "action": { "type": "block" },
     "condition": {"urlFilter": "javascripts/adwords.js",
     "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 832,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.vox-cdn.com/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 833,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.vox-cdn.com/",
+    "resourceTypes": ["xmlhttprequest"] }
   }                              
     ]
