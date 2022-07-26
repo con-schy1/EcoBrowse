@@ -5969,7 +5969,7 @@
     "priority": 1,
     "action": { "type": "block" },
     "condition": {"urlFilter": "cdn.rollbar.com/rollbarjs",
-    "resourceTypes": ["xmlhttprequest"] }
+    "resourceTypes": ["script"] }
   },
 {
     "id": 854,
@@ -5989,7 +5989,56 @@
     "id": 856,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": ".ingest.sentry.io/api",
+    "condition": {"urlFilter": "web-assets.zendesk.com/js/analytics",
     "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 857,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "web-assets.zendesk.com/js/analytics",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 858,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".zendesk.com/js/p-contact-us-widget",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 859,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".zendesk.com/js/p-contact-us-widget",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 860,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".levexis.com/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 861,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".levexis.com/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 862,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".mybluemix.net/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 863,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".mybluemix.net/",
+    "resourceTypes": ["script"] }
   }                              
     ]
