@@ -5977,5 +5977,19 @@
     "action": { "type": "block" },
     "condition": {"urlFilter": "cdn.rollbar.com/rollbarjs",
     "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 855,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".ingest.sentry.io/api",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 856,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".ingest.sentry.io/api",
+    "resourceTypes": ["xmlhttprequest"] }
   }                              
     ]
