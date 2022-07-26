@@ -5667,165 +5667,67 @@
     "id": 810,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "mobilemonkey.com/webchat-bootstrap.js",
+    "condition": {"urlFilter": "tag.apxlv.com/tag",
     "resourceTypes": ["script"] }
   },
 {
     "id": 811,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "static.mobilemonkey.com/js",
-    "resourceTypes": ["script"] }
+    "condition": {"urlFilter": "tag.apxlv.com/tag",
+    "resourceTypes": ["xmlhttprequest"] }
   },
 {
     "id": 812,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "tag.apxlv.com/tag",
+    "condition": {"urlFilter": ".mutinycdn.com/personalize/",
     "resourceTypes": ["script"] }
   },
 {
     "id": 813,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "tag.apxlv.com/tag",
+    "condition": {"urlFilter": ".mutinycdn.com/personalize/",
     "resourceTypes": ["xmlhttprequest"] }
   },
 {
     "id": 814,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "webchat.smartloop.ai",
+    "condition": {"urlFilter": "reveal.clearbit.com/",
     "resourceTypes": ["script"] }
   },
 {
     "id": 815,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "app.engati.com/",
-    "resourceTypes": ["script"] }
+    "condition": {"urlFilter": "reveal.clearbit.com/",
+    "resourceTypes": ["xmlhttprequest"] }
   },
 {
     "id": 816,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "widget.intercom.io",
+    "condition": {"urlFilter": "javascripts/adwords.js",
     "resourceTypes": ["script"] }
   },
 {
     "id": 817,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "js.driftt.com/",
-    "resourceTypes": ["script"] }
+    "condition": {"urlFilter": "javascripts/adwords.js",
+    "resourceTypes": ["xmlhttprequest"] }
   },
 {
     "id": 818,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "service.force.com/embeddedservice/",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 819,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "cdn.livechatinc.com/tracking",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 820,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "static.olark.com",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 821,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "client.crisp.chat",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 822,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "cdns.gigya.com/js",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 823,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": ".boldchat.com/",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 824,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "rum.sumologic.com/",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 825,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "chat.satis.fi/",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 826,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": ".mutinycdn.com/personalize/",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 827,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": ".mutinycdn.com/personalize/",
-    "resourceTypes": ["xmlhttprequest"] }
-  },
-{
-    "id": 828,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "reveal.clearbit.com/",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 829,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "reveal.clearbit.com/",
-    "resourceTypes": ["xmlhttprequest"] }
-  },
-{
-    "id": 830,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "javascripts/adwords.js",
-    "resourceTypes": ["script"] }
-  },
-{
-    "id": 831,
-    "priority": 1,
-    "action": { "type": "block" },
-    "condition": {"urlFilter": "javascripts/adwords.js",
-    "resourceTypes": ["xmlhttprequest"] }
-  },
-{
-    "id": 832,
     "priority": 1,
     "action": { "type": "block" },
     "condition": {"urlFilter": "cdn.vox-cdn.com/",
     "resourceTypes": ["script"] }
   },
 {
-    "id": 833,
+    "id": 819,
     "priority": 1,
     "action": { "type": "block" },
     "condition": {"urlFilter": "cdn.vox-cdn.com/",

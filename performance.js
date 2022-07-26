@@ -1,4 +1,4 @@
-
+//This code is owned and the proprietary property of Globemallow.io LLC. Any use of this intellectual property without the consent of Globemallow.io LLC is illegal. All rights reserved.
 chrome.runtime.onMessage.addListener(msg=> {
     
     if (document.readyState === 'complete') {
@@ -34,17 +34,11 @@ const analList = [/google-analytics/,/googletagmanager/,/connect.facebook.net/,/
 const adList = [/doubleclick/, /scorecardresearch/, /krxd.net/, /adservice.google/, /googleadservices/, /geoedge/, /ads\-twitter/, /amazon\-adsystem/, /ads.pubmatic/, /adroll/, /adnxs/, /ads.\linkedin/, /moatads/, /criteo/, /adlightning/, /turner.com\/ads/, /adsafeprotected/, /sc\-static/, /px.ads.linkedin/, /adsrvr/, /monetate/, /apps.bazaarvoice/, /tapad/, /casalemedia/, /ads.stickyadstv/, /pubmatic.com\/AdServer/, /ispot.tv/, /fwmrm.net/, /cxense/, /adsymptotic/, /yahoo.com\/admax/, /.brsrvr/, /advertising/, /ad.360yield/, /ad.wsod/, /teads.tv/, /tvpixel/, /www.youtube.com\/pagead/, /.impact\-ad./, /pubmatic.com\/AdServer\//, /\/player\/ad_break/, /\/api\/stats\/ads/, /33across/, /bat.bing/, /ad\-delivery/, /.adgrx.com\//, /ads.adthrive.com\//, /s.skimresources.com\//, /.ntv.io/, /imasdk.googleapis.com\//, /pix.pub/, /mail\-ads.google.com\/mail/, /edge.api.brightcove.com/, /hotzones\/src\//, /floodlight\_global.js/, /tags.bkrtx/, /d9.flashtalking/, /servedby.flashtalking/, /mmstat.com/, /.refersion.com\/tracker\//, /\/comscore./, /.en25.com\//, /evgnet.com/, /gscontxt.net/, /vidazoo/, /quantserve/, /.grapeshot./, /-advertising\/tmg-/, /cdn.petametrics.com\//, /fastclick.net/, /dianomi.com\/js/, /hsadspixel/, /ytimg.com\/generate_204/, /google.com\/pagead/, /googlevideo.com\/generate_204/, /adform.net/, /rr2---sn-cxoqcc/, /adsales.snidigital.com\//, /javascripts\/adwords.js/, /cdn.vox-cdn.com/];
 
 
-const chatList = [/mobilemonkey.com\/webchat-bootstrap.js\//, /static.mobilemonkey.com\/js/, /webchat.smartloop.ai/, /app.engati.com/, /widget.intercom.io/, /js.driftt.com/, /service.force.com\/embeddedservice\//, /cdn.livechatinc.com\/tracking/, /static.olark.com/, /client.crisp.chat/, /cdns.gigya.com\/JS/, /.boldchat.com\//, /.rum.sumologic.com/, /chat.satis.fi\//]; 
-    
-    
-    
-    
-    
     
 ///////////////////////////////
 //This script looks at all nextwork requests
     
-//ADs    
+    
 var httpADSrcs = [];
 var scrptADSrcs = [];
 var strHTTPADMatches;
@@ -63,7 +57,6 @@ for (var i = 0; i < adList.length; i++){
 
 }
 
-//Analytics
 var httpSrcs = [];
 var scrptSrcs = [];
 var strHTTPMatches;
@@ -81,55 +74,16 @@ for (var i = 0; i < analList.length; i++){
 
 }
     
-
-
-var scripts = document.getElementsByTagName("script");
-
-//Chat
+/*console.log(foundHTTPArray);
+console.log(foundHTTPADArray);*/
     
-var ChatSrcs = [];
-var scrptChatSrcs = [];
-var strChatMatches;
-var foundChatArray = [];
-var ChatCount = 0;
-    
-for (var i = 0; i < scripts.length; i++) {
-        ChatSrcs.push(scripts[i].src);
-    }
-    for (var i = 0; i < chatList.length; i++) {
-        strChatMatches = ChatSrcs.filter(element => chatList[i].test(element));
-        foundChatArray.push(strChatMatches);
-        ChatCount += foundChatArray[i].length;
-    }   
-    
-console.log(foundChatArray);
-    
-    
-    
-    
-    
-    
-    
- //variables to send   
-    
-    
-var totalAd = httpADCount;
+ var totalAd = httpADCount;
     
 var totalAnal = httpCount;
     
-var totalChat = ChatCount;
-    
-var totalTot = totalAd+totalAnal+totalChat;
+var totalTot = totalAd+totalAnal;
     
 //////////////////////////////////////
-/*console.log(foundHTTPArray);
-console.log(foundHTTPADArray);*/    
-    
-    
-
-  
-    
-    
     
     
     
@@ -139,7 +93,7 @@ if (totalTot === 0){
 //This script looks at script tags    
        
 
-
+var scripts = document.getElementsByTagName("script");
 
 
 //Analytics Scripts
@@ -261,7 +215,7 @@ var totalTot = totalAd+totalAnal;
 var totalString = totalTot.toString();
     
 
-var counts = {totalAd, totalAnal, totalChat, totalString, totalTot}
+var counts = {totalAd, totalAnal, totalString, totalTot}
 
 chrome.runtime.sendMessage(counts);
 
