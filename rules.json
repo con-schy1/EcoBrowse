@@ -5667,70 +5667,315 @@
     "id": 810,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "tag.apxlv.com/tag",
+    "condition": {"urlFilter": "mobilemonkey.com/webchat-bootstrap.js",
     "resourceTypes": ["script"] }
   },
 {
     "id": 811,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "tag.apxlv.com/tag",
-    "resourceTypes": ["xmlhttprequest"] }
+    "condition": {"urlFilter": "static.mobilemonkey.com/js",
+    "resourceTypes": ["script"] }
   },
 {
     "id": 812,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": ".mutinycdn.com/personalize/",
+    "condition": {"urlFilter": "tag.apxlv.com/tag",
     "resourceTypes": ["script"] }
   },
 {
     "id": 813,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": ".mutinycdn.com/personalize/",
+    "condition": {"urlFilter": "tag.apxlv.com/tag",
     "resourceTypes": ["xmlhttprequest"] }
   },
 {
     "id": 814,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "reveal.clearbit.com/",
+    "condition": {"urlFilter": "webchat.smartloop.ai",
     "resourceTypes": ["script"] }
   },
 {
     "id": 815,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "reveal.clearbit.com/",
-    "resourceTypes": ["xmlhttprequest"] }
+    "condition": {"urlFilter": "app.engati.com/",
+    "resourceTypes": ["script"] }
   },
 {
     "id": 816,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "javascripts/adwords.js",
+    "condition": {"urlFilter": "widget.intercom.io",
     "resourceTypes": ["script"] }
   },
 {
     "id": 817,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "javascripts/adwords.js",
-    "resourceTypes": ["xmlhttprequest"] }
+    "condition": {"urlFilter": "js.driftt.com/",
+    "resourceTypes": ["script"] }
   },
 {
     "id": 818,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "cdn.vox-cdn.com/",
+    "condition": {"urlFilter": "service.force.com/embeddedservice/",
     "resourceTypes": ["script"] }
   },
 {
     "id": 819,
     "priority": 1,
     "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.livechatinc.com/tracking",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 820,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "static.olark.com",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 821,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "client.crisp.chat",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 822,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdns.gigya.com/js",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 823,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".boldchat.com/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 824,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "rum.sumologic.com/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 825,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "chat.satis.fi/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 826,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".mutinycdn.com/personalize/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 827,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".mutinycdn.com/personalize/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 828,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "reveal.clearbit.com/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 829,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "reveal.clearbit.com/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 830,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "javascripts/adwords.js",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 831,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "javascripts/adwords.js",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 832,
+    "priority": 1,
+    "action": { "type": "block" },
     "condition": {"urlFilter": "cdn.vox-cdn.com/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 833,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.vox-cdn.com/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 834,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.instapagemetrics.com/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 835,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.instapagemetrics.com/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 836,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "ctracking.g2crowd.com/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 837,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "tracking.g2crowd.com/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 838,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".akamaihd.net/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 839,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".akamaihd.net/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 840,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.sitesearch360.com/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 841,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.sitesearch360.com/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 842,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "api.ipdata.co/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 843,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "api.ipdata.co/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 844,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "/analytics/preloadInit.js",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 845,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "/analytics/preloadInit.js",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 846,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "/analytics/segment/init-production.js",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 847,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "/analytics/segment/init-production.js",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 848,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.dynamicyield.com/api",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 849,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.dynamicyield.com/api",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 850,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".browser-intake-datadoghq.com/api",
+    "resourceTypes": ["ping"] }
+  },
+{
+    "id": 851,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": ".browser-intake-datadoghq.com/api",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 852,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "tracker.affirm.com",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 853,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.rollbar.com/rollbarjs",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 854,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "cdn.rollbar.com/rollbarjs",
     "resourceTypes": ["xmlhttprequest"] }
   }                              
     ]
