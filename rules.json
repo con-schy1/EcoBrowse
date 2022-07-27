@@ -6040,5 +6040,40 @@
     "action": { "type": "block" },
     "condition": {"urlFilter": ".mybluemix.net/",
     "resourceTypes": ["script"] }
+  },
+{
+    "id": 864,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "igodigital.com/collect",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 865,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "igodigital.com/collect",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 866,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "igodigital.com/collect",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 867,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "igodigital.com/collect",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 868,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "pdx01.abs.hls.ttvnw.net",
+    "resourceTypes": ["xmlhttprequest"] }
   }                              
     ]
