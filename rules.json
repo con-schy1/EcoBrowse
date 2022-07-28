@@ -6073,7 +6073,49 @@
     "id": 868,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "pdx01.abs.hls.ttvnw.net",
+    "condition": {"urlFilter": "hs-analytics.net/",
     "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 869,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "hs-analytics.net/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 870,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "js.hsadspixel.net/",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 871,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "js.hsadspixel.net/",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 872,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "usemessages.com/conversations-embed.js",
+    "resourceTypes": ["xmlhttprequest"] }
+  },
+{
+    "id": 873,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "usemessages.com/conversations-embed.js",
+    "resourceTypes": ["script"] }
+  },
+{
+    "id": 874,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {"urlFilter": "app.hubspot.com\/conversations-visitor",
+    "resourceTypes": ["sub_frame"] }
   }                              
     ]
