@@ -2146,14 +2146,14 @@
     "id": 307,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "//cdn.optimizely.com/", 
+    "condition": {"urlFilter": "optimizely.com/js", 
     "resourceTypes": ["script"] }
   },
     {
     "id": 308,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "//cdn.optimizely.com/", 
+    "condition": {"urlFilter": "optimizely.com/js", 
     "resourceTypes": ["xmlhttprequest"] }
   },
     {
@@ -3588,7 +3588,7 @@
     "id": 513,
     "priority": 1,
     "action": { "type": "block" },
-    "condition": {"urlFilter": "//cdn.optimizely.com/", 
+    "condition": {"urlFilter": "optimizely.com/js", 
     "resourceTypes": ["other"] }
   },
     {
